@@ -1,26 +1,23 @@
 {
-    "name": "leandrogehlen/yii2-codemirror",
+    "name": "white-miku/yii2-codemirror",
     "description": "CodeMirror extension for Yii2",
     "keywords": ["yii2","extension"],
     "type": "yii2-extension",
     "license": "LGPL-3.0+",
     "authors": [
         {
-            "name": "Jay Leno",
-            "email": "jay.leno@aurenav.com"
-        },{
-            "name": "Leandro Gehlen",
-            "email": "leandrogehlen@gmail.com"
+            "name": "White Miku",
+            "email": "mi@white-miku.me"
         }
     ],
     "minimum-stability": "dev",
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/codemirror": "5.0.*"
+        "bower-asset/codemirror": "5.*"
     },
     "autoload": {
         "psr-4": {
-            "leandrogehlen\\codemirror\\": ""
+            "whitemiku\\codemirror\\": ""
         }
     }
 }

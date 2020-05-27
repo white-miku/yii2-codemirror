@@ -1,10 +1,6 @@
 <?php
-/**
- * @copyright Copyright &copy; Jay Leno, Aurenav.com, 2015
- * @package yii2-codemirror
- */
 
-namespace leandrogehlen\codemirror;
+namespace whitemiku\codemirror;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -13,11 +9,6 @@ use yii\helpers\Inflector;
 use yii\helpers\Json;
 use yii\widgets\InputWidget;
 
-/**
- * Renders a CodeMirror editor
- * @author Leandro Gehlen <leandrogehlen@gmail.com>
- * @since 1.2.0
- */
 class CodeMirror extends InputWidget
 {
     /**
